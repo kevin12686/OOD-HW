@@ -43,7 +43,7 @@ public class StudentRecord {
 	}
 	
 	public boolean equals(StudentRecord other){
-		return Arrays.equals(this.quizzes, other.quizzes) && this.midexam == other.midexam && this.finexam == other.finexam && this.overscore == other.getOverallScore() && this.finletter == other.getFinalLetter();
+		return this.overscore == other.getOverallScore() && this.finletter == other.getFinalLetter();
 	}
 	
 	public String toString(){

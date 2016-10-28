@@ -21,6 +21,8 @@ public class HW3_P286_Q6 {
 		S2.finexam = scan.nextInt();
 		S2.excute();
 		System.out.println(S2);
+		System.out.println();
+		System.out.println("S1 is equal to S2 ? " + S1.equals(S2));
 		scan.close();
 	}
 }
